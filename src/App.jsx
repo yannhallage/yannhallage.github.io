@@ -1,9 +1,14 @@
+import Header from "./components/header"
+import Section from "./components/section"
+
 
 function App() {
 
   return (
     <>
-      portofolio
+      <Header />
+      {/*  */}
+      <Section />
     </>
   )
 }
