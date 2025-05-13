@@ -1,16 +1,20 @@
-import Header from "./components/header"
-import Section from "./components/section"
+import Header from "./components/header";
+import Section_one from "./pages/section_one";
+import Section from "./components/section";
 
-
-function App() {
-
+const App = () => {
   return (
     <>
-      <Header />
-      {/*  */}
-      <Section />
+      <main className=""> 
+        <Header />
+        {/*  */}
+        <section className="">
+          <Section />
+          {/* section_one */}
+          <Section_one />
+        </section>
+      </main>
     </>
   )
 }
-
-export default App
+export default App;
