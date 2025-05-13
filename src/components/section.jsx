@@ -3,7 +3,7 @@
 const Section = () => {
     return (
         <>
-            <section className=" border p-3 container mx-auto mt-11 space-y-3">
+            <section className=" p-3 container mx-auto mt-11 space-y-3">
                 <div className="text-2xl">
                     <span>
                         Sarah Dayan <br />

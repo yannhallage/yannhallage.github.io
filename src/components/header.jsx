@@ -3,7 +3,7 @@
 const Header = () => {
     return (
         <>
-            <header className="p-5 ">
+            <header className="p-5 container mx-auto">
                 <div className="flex justify-between py-5 container mx-auto">
                     <div className="">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">

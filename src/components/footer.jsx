@@ -3,7 +3,7 @@
 const Footer = () =>{
     return(
         <>
-        <footer className="container mx-auto mt-18">
+        <footer className="container mx-auto mt-18 text-[12px]">
             <div className="border-t-1">
                 <span>2025 - all right reserved</span>
                 <span className="float-end">yannhallage</span>

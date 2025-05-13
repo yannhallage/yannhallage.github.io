@@ -4,35 +4,18 @@ const Section_one = () => {
     return (
         <>
             <section className="p-3 container mx-auto mt-23">
-                <div className="border-b-1">
+                <div className="">
                     <span>
                         pages
                     </span>
+                    <hr
+                        className="text-secondary/5 dark:text-white/5 mb-4"
+                    />
                 </div>
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4 p-2 mt-3">
                     <div className="border p-3 rounded-md">
                         <span>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur dolores esse aperiam ad totam quasi distinctio atque at voluptates eligendi velit voluptatibus ratione, nemo, quisquam assumenda, cumque sequi perferendis?
-                        </span>
-                    </div>
-                    <div className="border p-3 rounded-md">
-                        <span>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur dolores esse aperiam ad totam quasi distinctio atque at voluptates eligendi velit voluptatibus ratione, nemo, quisquam assumenda, cumque sequi perferendis?
-                        </span>
-                    </div>
-                    <div className="border p-3 rounded-md">
-                        <span>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur dolores esse aperiam ad totam quasi distinctio atque at voluptates eligendi velit voluptatibus ratione, nemo, quisquam assumenda, cumque sequi perferendis?
-                        </span>
-                    </div>
-                    <div className="border p-3 rounded-md">
-                        <span>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur dolores esse aperiam ad totam quasi distinctio atque at voluptates eligendi velit voluptatibus ratione, nemo, quisquam assumenda, cumque sequi perferendis?
-                        </span>
-                    </div>
-                    <div className="border p-3 rounded-md">
-                        <span>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur dolores esse aperiam ad totam quasi distinctio atque at voluptates eligendi velit voluptatibus ratione, nemo, quisquam assumenda, cumque sequi perferendis?
+                            <a target="_self" class="rounded-md p-5 bg-secondary/5 dark:bg-[#ffffff0a] dark:hover:bg-[#ffffff0f] dark:backdrop-blur-2xl transition-all duration-1000 opacity-1 -translate-y-0" href="/blog"><h3 class="text-base mb-1 md:mb-2 md:font-medium">Blog</h3><p class="dark:text-grey-light-900 text-small md:text-base mb-0">Lees wat ik met de wereld deel</p></a>
                         </span>
                     </div>
                 </div>
@@ -45,29 +28,13 @@ const Section_one = () => {
                     <span>
                         Technologies
                     </span>
-                    
+
                 </div>
 
                 <div className=" mt-3">
                     <span>Frontend</span>
                 </div>
                 <div className="grid md:grid-cols-4 grid-cols-2 p-3 gap-4">
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
                     <div className="flex border rounded-md p-4">
                         <span>icon</span>
                         <span>titre</span>
@@ -84,22 +51,6 @@ const Section_one = () => {
                         <span>icon</span>
                         <span>titre</span>
                     </div>
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
                 </div>
             </section>
 
@@ -109,22 +60,6 @@ const Section_one = () => {
                     <span>Tools</span>
                 </div>
                 <div className="grid md:grid-cols-4 grid-cols-2 p-3 gap-4">
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
-                    <div className="flex border rounded-md p-4">
-                        <span>icon</span>
-                        <span>titre</span>
-                    </div>
                     <div className="flex border rounded-md p-4">
                         <span>icon</span>
                         <span>titre</span>
