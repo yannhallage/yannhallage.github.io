@@ -4,11 +4,10 @@ const Section_one = () => {
     return (
         <>
             <section className="p-3 container mx-auto mt-23">
-                <div className="">
+                <div className="border-b-1">
                     <span>
                         pages
                     </span>
-                    <hr />
                 </div>
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4 p-2 mt-3">
                     <div className="border p-3 rounded-md">
@@ -42,11 +41,11 @@ const Section_one = () => {
             {/* Technologies */}
 
             <section className="container mx-auto mt-2">
-                <div className="">
+                <div className="border-b-1">
                     <span>
                         Technologies
                     </span>
-                    <hr />
+                    
                 </div>
 
                 <div className=" mt-3">

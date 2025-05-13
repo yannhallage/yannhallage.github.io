@@ -1,7 +1,7 @@
 import Header from "./components/header";
 import Section_one from "./pages/section_one";
 import Section from "./components/section";
-
+import Footer from "./components/footer";
 const App = () => {
   return (
     <>
@@ -12,6 +12,8 @@ const App = () => {
           <Section />
           {/* section_one */}
           <Section_one />
+          {/*  */}
+          <Footer />
         </section>
       </main>
     </>
