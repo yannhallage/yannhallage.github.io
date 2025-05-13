@@ -1,21 +1,21 @@
-
+import { iconMap }  from "../data/data"
 
 const Section = () => {
     return (
         <>
-            <section className=" p-3 container mx-auto mt-11 space-y-3">
-                <div className="text-2xl">
-                    <span>
-                        Sarah Dayan <br />
-                        Principal Software Engineer at Algolia
-                    </span>
-                </div>
-                <div className="">
-                    <span>
-                        I build open-source front-end libraries at Algolia and host two tech podcasts: Developer Experience and Entre Devs. <br />
-
-                        In my spare time, I share what I learn on my blog and speak at tech conferences around the world.
-                    </span>
+            <section class="container mx-auto">
+                <span class="text-2xl">Frontend</span>
+                <div class="mt-4 grid md:grid-cols-3 grid-cols-1 gap-2">
+                    <div class="container mx-auto p-4 bg-[#181818]  transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                        <span class="text-2xl "><i class="fa-brands fa-html5"></i></span>
+                        <span class="text-2xl"></span>
+                        <p class="">
+                            langage de balisage conçu pour représenter les pages web
+                        </p>
+                        <div class="mt-4 text-[13px] text-[#F6B17A]">
+                            <span><i class="fa-solid fa-star"></i>  10</span> <span class="float-end">rates</span>
+                        </div>
+                    </div>
                 </div>
             </section>
         </>
