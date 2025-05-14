@@ -1,29 +1,37 @@
-import { useEffect } from "react";
-import { Frontend_, iconMap,Tools,Tools_ ,
-     Database,Database_,Backend, Backend_ } from "../data/data";
+// import {  } from "react";
+import { motion } from "motion/react"
+import {
+    Frontend_, iconMap, Tools, Tools_,
+    Database, Database_, Backend, Backend_
+} from "../data/data";
 
 const Section = () => {
     return (
         <>
-            <section  className="space-y-11">
-                <div className="">
+
+            <section className="space-y-11">
+                <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="">
                     <span className="text-2xl text-white">Frontend</span>
                     <hr className="text-secondary/5 dark:text-white/5 mb-4" />
                     <div className="mt-4 grid md:grid-cols-3 grid-cols-1 gap-4">
                         {Frontend_.map((tech, index) => (
-                            <div key={index} className="flex items-center space-x-4 bg-white/5 p-4 rounded-xl animate__animated">
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.95 }}
+                                onHoverStart={() => console.log('hover started!')}
+                                key={index} className="flex items-center space-x-4 bg-white/5 p-4 rounded-xl animate__animated">
                                 <div className="p-2 items-center justify-center rounded-lg bg-[#7ee1fc26]">
-                                <img
-                                    src={iconMap[tech]}
-                                    alt={tech}
-                                    className="w-10 h-10 object-contain"
-                                />
+                                    <img
+                                        src={iconMap[tech]}
+                                        alt={tech}
+                                        className="w-10 h-10 object-contain"
+                                    />
                                 </div>
                                 <span className="text-white capitalize">{tech}</span>
-                            </div>
+                            </motion.div>
                         ))}
                     </div>
-                </div>
+                    /</motion.div>
                 {/* backend */}
                 <div className="">
                     <span className="text-2xl text-white">Backend</span>

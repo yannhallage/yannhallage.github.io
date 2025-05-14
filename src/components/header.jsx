@@ -3,7 +3,7 @@
 const Header = () => {
     return (
         <>
-            <header className=" text-white animate__animated animate__fadeInDown">
+            <header className=" text-white animate__animated animate__fadeInDown mt-5">
 
                 <div className="container mx-auto p-6 space-y-5 ">
 
