@@ -10,8 +10,11 @@ export const iconMap = {
   webpack: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
   babel: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg",
   jest: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
-  "testing-library": "https://testing-library.com/img/octopus-128x128.png",
+  "testing-library": "https://testing-library.com/img/octopus-128x128.png"
 
+}
+
+export const Backend = {
   // Backend
   "node js": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   express: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
@@ -22,15 +25,17 @@ export const iconMap = {
   java: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
   spring: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
   hibernate: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-plain.svg",
-
+}
+export const Database = {
   // Database
   mysql: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
   postgresql: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
   mongodb: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   firebase: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
   sqlite: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg",
-
+}
   // Tools
+  export const Tools = {
   git: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   docker: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   kubernetes: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
@@ -39,18 +44,18 @@ export const iconMap = {
   "google cloud": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
 };
 
-export const Frontend = [
+export const Frontend_ = [
   "javascript", "react", "vue js", "angular", "typescript", "css", "html", "webpack", "babel", "jest", "testing-library"
 ];
 
-export const Backend = [
+export const Backend_ = [
   "node js", "express", "django", "flask", "ruby on rails", "python", "java", "spring", "hibernate"
 ];
 
-export const Database = [
+export const Database_ = [
   "mysql", "postgresql", "mongodb", "firebase", "sqlite"
 ];
 
-export const Tools = [
+export const Tools_ = [
   "git", "docker", "kubernetes", "aws", "azure", "google cloud"
 ];

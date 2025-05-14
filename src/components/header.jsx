@@ -3,7 +3,7 @@
 const Header = () => {
     return (
         <>
-            <header className=" text-white">
+            <header className=" text-white animate__animated animate__fadeInDown">
 
                 <div className="container mx-auto p-6 space-y-5 ">
 
@@ -25,7 +25,7 @@ const Header = () => {
 
                         <div className="profil_link mt-4 space-x-5 text-[17px]">
                             <a className="navbar-brand " id="im" href="#">
-                                <img src="WhatsApp Image 2024-05-06 à 02.14.39_d3d98717.jpg" id="profil" name="pic" alt="" onclick="funct_account()" />
+                                <img src="WhatsApp Image 2024-05-06 à 02.14.39_d3d98717.jpg" id="profil" name="pic" alt="" />
                             </a>
                             <a href="https://www.instagram.com/thisisyannhallage/"><span className=""><i className="fa-brands fa-square-instagram"></i></span> <span className="ml-2">Instagram</span> <span className="text-[9px]"><i
                                 className="fa-solid fa-arrow-up-right-from-square"></i></span></a>
