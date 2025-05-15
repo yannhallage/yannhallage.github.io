@@ -11,13 +11,21 @@ const Realisation = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: "easeOut" }}
             >
-                <div className="bg-white/5 p-6  rounded-xl">
+                <div className="bg-white/5 p-6  rounded-xl"
+                    onClick={() => {
+                        console.log(true)
+                    }}
+                >
                     <span>Projects</span>
                     <p>
                         This is a blog page
                     </p>
                 </div>
-                <div className="bg-white/5 p-6  rounded-xl">
+                <div className="bg-white/5 p-6  rounded-xl"
+                    onClick={() => {
+                        console.log(true)
+                    }}
+                >
                     <span>
                         about
                     </span>
@@ -25,7 +33,11 @@ const Realisation = () => {
                         This is an about page
                     </p>
                 </div>
-                <div className="bg-white/5 p-6  rounded-xl">
+                <div className="bg-white/5 p-6  rounded-xl"
+                    onClick={() => {
+                        console.log(true)
+                    }}
+                >
                     <span>
                         Experience
                     </span>
