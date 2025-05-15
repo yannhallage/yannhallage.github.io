@@ -3,7 +3,7 @@
 const Realisation = () => {
     return (
         <>
-            <span className="text-2xl text-white">Pages</span>
+            <span className="text-xl text-white">Pages</span>
             <hr className="text-secondary/5 dark:text-white/5 mb-4" />
             <div className="mt-4 grid text-white md:grid-cols-2 grid-cols-1 gap-4">
                 <div className="bg-white/5 p-4  rounded-xl">
@@ -22,7 +22,7 @@ const Realisation = () => {
                 </div>
                 <div className="bg-white/5 p-4  rounded-xl">
                     <span>
-                        contact
+                        Experience
                     </span>
                     <p>
                         This is a contact page

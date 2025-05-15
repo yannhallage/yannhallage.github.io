@@ -3,7 +3,7 @@
 const Header = () => {
     return (
         <>
-            <header className=" text-white animate__animated animate__fadeInDown mt-5">
+            <header className=" text-white mt-5">
 
                 <div className="container mx-auto p-6 space-y-5 ">
 
@@ -14,7 +14,7 @@ const Header = () => {
                         <span className="">Etudiant & Developpper informatique</span>
                     </div>
 
-                    <div className="">
+                    <div className="text-[#ccc]">
                         <p>
                             I build open-source front-end libraries at Algolia and host two tech podcasts: Developer Experience
                             and Entre Devs.
@@ -24,14 +24,18 @@ const Header = () => {
                         </p>
 
                         <div className="profil_link mt-4 space-x-5 text-[17px]">
-                            <a className="navbar-brand " id="im" href="#">
-                                <img src="WhatsApp Image 2024-05-06 à 02.14.39_d3d98717.jpg" id="profil" name="pic" alt="" />
+                            <a href="">
+                                <i class="fa-brands fa-github"></i>
+                                <span className="ml-1">
+                                    GitHub
+                                </span>
                             </a>
-                            <a href="https://www.instagram.com/thisisyannhallage/"><span className=""><i className="fa-brands fa-square-instagram"></i></span> <span className="ml-2">Instagram</span> <span className="text-[9px]"><i
-                                className="fa-solid fa-arrow-up-right-from-square"></i></span></a>
-                            <a href="https://snapchat.com/add/pxnd3monuim"><span className=""><i className="fa-brands fa-square-snapchat"></i></span> <span className="ml-2">Snap</span> <span className="text-[9px]"><i
-                                className="fa-solid fa-arrow-up-right-from-square"></i></span></a>
-                            <a href="" className="float-end  rounded pr-2 pl-2 m-3 cursor-default" id="coding"><span className="text-yellow-200"><i className="fa-solid fa-check-double"></i> | <span>18</span></span></a>
+                            <a href="">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <span className="ml-1">
+                                    GitHub
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>

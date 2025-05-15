@@ -10,7 +10,7 @@ function App() {
     <main>
       <Header />
       {/*  */}
-      <section className="container mx-auto p-3 space-y-17  md:p-11 mt-5">
+      <section className="container mx-auto p-3 space-y-17 md:p-11 mt-5">
         <Realisation />
         {/* realtisation */}
         <Section />
