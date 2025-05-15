@@ -23,7 +23,7 @@ const Section = () => {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 1, ease: "easeOut" }}
                                 key={index} className="flex items-center space-x-4 bg-white/5 p-4 rounded-xl animate__animated">
-                                <div className="p-2 items-center justify-center rounded-lg bg-[#7ee1fc26]">
+                                <div className="p-2 items-center justify-center rounded-lg bg-[#7ee1fc26] ">
                                     <img
                                         src={iconMap[tech]}
                                         alt={tech}

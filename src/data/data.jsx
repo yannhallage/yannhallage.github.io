@@ -20,6 +20,7 @@ export const Backend = {
   // Backend
   "node js": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   express: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+  golang: "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg",
   lua : "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg",
   vitejs: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
   "ruby on rails": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
@@ -53,7 +54,7 @@ export const Frontend_ = [
 ];
 
 export const Backend_ = [
-  "node js", "express", "vitejs", "lua", "java", "spring"
+  "node js", "express", "golang","vitejs", "lua", "java", "spring"
 ];
 
 export const Database_ = [
