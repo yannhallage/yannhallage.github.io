@@ -1,7 +1,10 @@
 
 import { motion } from "motion/react"
+import { useNavigate } from "react-router-dom"
+
 
 const Realisation = () => {
+    const navigate = useNavigate()
     return (
         <>
             <span className="text-xl text-white">Pages</span>
@@ -13,7 +16,7 @@ const Realisation = () => {
             >
                 <div className="bg-white/5 p-6  rounded-xl"
                     onClick={() => {
-                        console.log(true)
+                        navigate('/Projects');
                     }}
                 >
                     <span>Projects</span>
@@ -23,7 +26,7 @@ const Realisation = () => {
                 </div>
                 <div className="bg-white/5 p-6  rounded-xl"
                     onClick={() => {
-                        console.log(true)
+                        navigate('/About');
                     }}
                 >
                     <span>
@@ -35,7 +38,7 @@ const Realisation = () => {
                 </div>
                 <div className="bg-white/5 p-6  rounded-xl"
                     onClick={() => {
-                        console.log(true)
+                        navigate('/blog');
                     }}
                 >
                     <span>
