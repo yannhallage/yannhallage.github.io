@@ -14,7 +14,7 @@ const Header = () => {
                         <span className="">Etudiant & Developpper informatique</span>
                     </div>
 
-                    <div className="text-[#ccc]">
+                    <div className="text-[#]">
                         <p>
                             I build open-source front-end libraries at Algolia and host two tech podcasts: Developer Experience
                             and Entre Devs.

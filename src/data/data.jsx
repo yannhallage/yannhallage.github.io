@@ -3,10 +3,10 @@ export const iconMap = {
   javascript: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   react: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   "vue js": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-  angular: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+  // angular: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
   typescript: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   css: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-  html: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  // html: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
   webpack: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
   babel: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg",
   jest: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
@@ -45,7 +45,7 @@ export const Database = {
 };
 
 export const Frontend_ = [
-  "javascript", "react", "vue js", "angular", "typescript", "css", "html", "webpack", "babel", "jest", "testing-library"
+  "javascript", "react", "vue js", "typescript", "css", "webpack", "babel", "jest", "testing-library"
 ];
 
 export const Backend_ = [

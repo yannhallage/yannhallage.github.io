@@ -6,13 +6,13 @@ const Realisation = () => {
             <span className="text-xl text-white">Pages</span>
             <hr className="text-secondary/5 dark:text-white/5 mb-4" />
             <div className="mt-4 grid text-white md:grid-cols-2 grid-cols-1 gap-4">
-                <div className="bg-white/5 p-4  rounded-xl">
+                <div className="bg-white/5 p-6  rounded-xl">
                     <span>projects</span>
                     <p>
                         This is a project page
                     </p>
                 </div>
-                <div className="bg-white/5 p-4  rounded-xl">
+                <div className="bg-white/5 p-6  rounded-xl">
                     <span>
                         about
                     </span>
@@ -20,7 +20,7 @@ const Realisation = () => {
                         This is an about page
                     </p>
                 </div>
-                <div className="bg-white/5 p-4  rounded-xl">
+                <div className="bg-white/5 p-6  rounded-xl">
                     <span>
                         Experience
                     </span>
