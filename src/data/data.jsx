@@ -45,7 +45,7 @@ export const Database = {
   aws: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
   // azure: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
   postman : "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
-  "google cloud": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
+  drizzle: "https://raw.githubusercontent.com/drizzle-team/drizzle-orm/08944daf632e33c784937ac2de404cb081f795cd/misc/readme/logo-github-sq-light.svg",
 };
 
 export const Frontend_ = [
@@ -61,5 +61,5 @@ export const Database_ = [
 ];
 
 export const Tools_ = [
-  "git", "docker", "kubernetes", "aws", "postman", "google cloud"
+  "git", "docker", "kubernetes", "aws", "postman", "drizzle"
 ];
