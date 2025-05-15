@@ -10,7 +10,7 @@ const Section = () => {
         <>
             <section className="space-y-11 ">
                 <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="">
-                    <span className="text-2xl text-white">Frontend</span>
+                    <span className=" text-[13px]md:text-2xl text-white">Frontend</span>
                     <hr className="text-secondary/5 dark:text-white/5 mb-4" />
                     <div className="mt-4 grid md:grid-cols-3 grid-cols-1 gap-4">
                         {Frontend_.map((tech, index) => (
