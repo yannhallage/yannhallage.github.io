@@ -9,7 +9,7 @@ export const iconMap = {
   // html: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
   webpack: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
   babel: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg",
-  jest: "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
+  sass: "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
   "testing-library": "https://testing-library.com/img/octopus-128x128.png"
 
 }
