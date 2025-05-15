@@ -25,15 +25,24 @@ const Header = () => {
                         In my spare time, I share what I learn on my blog and speak at tech conferences around the world
                     </p>
 
-                    <div className="profil_link mt-4 space-x-5 text-[17px]">
-                        <a href="">
-                            <i className="fa-brands fa-github"></i>
-                            <span className="ml-1">GitHub</span>
-                        </a>
-                        <a href="">
-                            <i className="fa-brands fa-linkedin"></i>
-                            <span className="ml-1">LinkedIn</span>
-                        </a>
+                    <div className="profil_link mt-4 space-x-5 flex text-[17px]">
+                        <div className=" bg-dusk">
+                            <img
+                                src="/public/1720664211203.jpg"
+                                className="rounded-full"
+                                width={'50'}
+                                alt="" />
+                        </div>
+                        <div className="mt-2 space-x-5">
+                            <a href="">
+                                <i className="fa-brands fa-github"></i>
+                                <span className="ml-1">GitHub</span>
+                            </a>
+                            <a href="">
+                                <i className="fa-brands fa-linkedin"></i>
+                                <span className="ml-1">LinkedIn</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

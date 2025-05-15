@@ -6,11 +6,13 @@ export const iconMap = {
   // angular: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
   typescript: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   css: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  tailwindcss : "https://upload.wikimedia.org/wikipedia/commons/9/95/Tailwind_CSS_logo.svg",
   // html: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
   webpack: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
   babel: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg",
   sass: "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
-  "testing-library": "https://testing-library.com/img/octopus-128x128.png"
+  // "testing-library": "https://testing-library.com/img/octopus-128x128.png"
+  "javaFX" : "https://imgs.search.brave.com/T9sDvtbklTopFM0N4aTiuzU29SPQJ_iJulGuuA8taeY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZnIvYy9jYy9K/YXZhRlhfTG9nby5w/bmc"
 
 }
 
@@ -18,10 +20,11 @@ export const Backend = {
   // Backend
   "node js": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   express: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-  django: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
-  flask: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+  lua : "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg",
+  vitejs: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
   "ruby on rails": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
-  python: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+  // python: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+
   java: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
   spring: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
   hibernate: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-plain.svg",
@@ -40,16 +43,17 @@ export const Database = {
   docker: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   kubernetes: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
   aws: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
-  azure: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+  // azure: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+  postman : "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
   "google cloud": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
 };
 
 export const Frontend_ = [
-  "javascript", "react", "vue js", "typescript", "css", "webpack", "babel", "sass", "testing-library"
+  "javascript", "react", "tailwindcss","vue js", "typescript", "css", "webpack", "babel", "sass", "javaFX"
 ];
 
 export const Backend_ = [
-  "node js", "express", "django", "flask", "ruby on rails", "python", "java", "spring", "hibernate"
+  "node js", "express", "vitejs", "lua", "java", "spring"
 ];
 
 export const Database_ = [
@@ -57,5 +61,5 @@ export const Database_ = [
 ];
 
 export const Tools_ = [
-  "git", "docker", "kubernetes", "aws", "azure", "google cloud"
+  "git", "docker", "kubernetes", "aws", "postman", "google cloud"
 ];

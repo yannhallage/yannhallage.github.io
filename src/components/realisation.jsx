@@ -12,7 +12,7 @@ const Realisation = () => {
                 transition={{ duration: 1, ease: "easeOut" }}
             >
                 <div className="bg-white/5 p-6  rounded-xl">
-                    <span>Blog</span>
+                    <span>Projects</span>
                     <p>
                         This is a blog page
                     </p>
