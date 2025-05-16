@@ -17,7 +17,7 @@ const Mains = () => {
                     <Header />
                 </div>
                 {/*  */}
-                <section className="container mx-auto p-3 space-y-17 md:p-11 mt-5">
+                <section className="container mx-auto p-3 space-y-17 md:p-11">
                     { state }
                 </section>
                 <div className="">
