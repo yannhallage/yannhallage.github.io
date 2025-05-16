@@ -1,3 +1,4 @@
+
 function TechCategory({ title, items }) {
   return (
     <div className="mb-10">

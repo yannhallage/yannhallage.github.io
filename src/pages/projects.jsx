@@ -1,11 +1,22 @@
 import { motion } from "motion/react";
+import { Context } from "../context/context";
+import { useContext } from "react";
+import Alternative from "../alternative";
 
 
 const Projects = () => {
+    const { state, setState } = useContext(Context);
     return (
         <>
             <section >
                 <span className=" text-[13px]md:text-2xl text-base text-neutral-300">Projects</span>
+                <span className=" text-[13px]md:text-2xl text-base float-end cursor-pointer text-neutral-300"
+                    onClick={() => {
+                        setState(
+                            <Alternative />
+                        );
+                    }}
+                ><i class="fa-solid fa-arrow-left"></i></span>
                 <hr className="text-secondary/5 dark:text-white/5 mb-4" />
                 <motion.div
                     className="mt-4 grid md:grid-cols-3 grid-cols-1 gap-4"
@@ -18,9 +29,9 @@ const Projects = () => {
                             <img
                                 alt="Een afbeelding gerelateerd aan dit project"
                                 srcSet="
-        https://res.cloudinary.com/dm8qh4w9a/image/upload/w_384/aca5e3a7-54e2-44cb-8584-37dcc89928b9 1x,
-        https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9 2x
-      "
+                                        https://res.cloudinary.com/dm8qh4w9a/image/upload/w_384/aca5e3a7-54e2-44cb-8584-37dcc89928b9 1x,
+                                        https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9 2x
+                                    "
                                 src="https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9"
                                 width={300}
                                 height={50}
@@ -40,9 +51,9 @@ const Projects = () => {
                             <img
                                 alt="Een afbeelding gerelateerd aan dit project"
                                 srcSet="
-        https://res.cloudinary.com/dm8qh4w9a/image/upload/w_384/aca5e3a7-54e2-44cb-8584-37dcc89928b9 1x,
-        https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9 2x
-      "
+                                    https://res.cloudinary.com/dm8qh4w9a/image/upload/w_384/aca5e3a7-54e2-44cb-8584-37dcc89928b9 1x,
+                                    https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9 2x
+                                "
                                 src="https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9"
                                 width={300}
                                 height={50}
@@ -62,9 +73,9 @@ const Projects = () => {
                             <img
                                 alt="Een afbeelding gerelateerd aan dit project"
                                 srcSet="
-        https://res.cloudinary.com/dm8qh4w9a/image/upload/w_384/aca5e3a7-54e2-44cb-8584-37dcc89928b9 1x,
-        https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9 2x
-      "
+                                    https://res.cloudinary.com/dm8qh4w9a/image/upload/w_384/aca5e3a7-54e2-44cb-8584-37dcc89928b9 1x,
+                                    https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9 2x
+                                "
                                 src="https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9"
                                 width={300}
                                 height={50}
@@ -84,9 +95,9 @@ const Projects = () => {
                             <img
                                 alt="Een afbeelding gerelateerd aan dit project"
                                 srcSet="
-        https://res.cloudinary.com/dm8qh4w9a/image/upload/w_384/aca5e3a7-54e2-44cb-8584-37dcc89928b9 1x,
-        https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9 2x
-      "
+                                    https://res.cloudinary.com/dm8qh4w9a/image/upload/w_384/aca5e3a7-54e2-44cb-8584-37dcc89928b9 1x,
+                                    https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9 2x
+                                "
                                 src="https://res.cloudinary.com/dm8qh4w9a/image/upload/w_640/aca5e3a7-54e2-44cb-8584-37dcc89928b9"
                                 width={300}
                                 height={50}

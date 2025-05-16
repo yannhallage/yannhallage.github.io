@@ -8,7 +8,7 @@ import { Context } from "../context/context";
 import { useContext } from "react";
 
 const Mains = () => {
-    const { state, setState } = useContext(Context)
+    const { state } = useContext(Context)
 
     return (
         <>
