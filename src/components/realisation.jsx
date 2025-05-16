@@ -1,10 +1,17 @@
 
 import { motion } from "motion/react"
-import { useNavigate } from "react-router-dom"
+// import { useNavigate } from "react-router-dom"
+import { useContext } from "react"
+
+import { Context } from "../context/context"
+import Projects from "../pages/projects"
+import About from "../pages/about"
+import Blog from "../pages/blog"
 
 
 const Realisation = () => {
-    const navigate = useNavigate()
+
+    const { setState } = useContext(Context)
     return (
         <>
             <span className="text-xl text-white">Pages</span>
@@ -16,7 +23,7 @@ const Realisation = () => {
             >
                 <div className="bg-white/5 p-6  rounded-xl"
                     onClick={() => {
-                        navigate('/Projects');
+                        setState(<Projects />)
                     }}
                 >
                     <span>Projects</span>
@@ -26,7 +33,9 @@ const Realisation = () => {
                 </div>
                 <div className="bg-white/5 p-6  rounded-xl"
                     onClick={() => {
-                        navigate('/About');
+                        setState(
+                            <About />
+                        )
                     }}
                 >
                     <span>
@@ -38,7 +47,9 @@ const Realisation = () => {
                 </div>
                 <div className="bg-white/5 p-6  rounded-xl"
                     onClick={() => {
-                        navigate('/blog');
+                        setState(
+                            <Blog />
+                        )
                     }}
                 >
                     <span>
