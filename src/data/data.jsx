@@ -8,8 +8,8 @@ export const iconMap = {
   css: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
   tailwindcss : "https://upload.wikimedia.org/wikipedia/commons/9/95/Tailwind_CSS_logo.svg",
   // html: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-  webpack: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
-  babel: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg",
+  // webpack: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+  // babel: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg",
   sass: "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
   // "testing-library": "https://testing-library.com/img/octopus-128x128.png"
   "javaFX" : "https://imgs.search.brave.com/T9sDvtbklTopFM0N4aTiuzU29SPQJ_iJulGuuA8taeY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZnIvYy9jYy9K/YXZhRlhfTG9nby5w/bmc"
@@ -50,7 +50,7 @@ export const Database = {
 };
 
 export const Frontend_ = [
-  "javascript", "react", "tailwindcss","vue js", "typescript", "css", "webpack", "babel", "sass", "javaFX"
+  "javascript", "react", "tailwindcss","vue js", "typescript", "css", "sass", "javaFX"
 ];
 
 export const Backend_ = [

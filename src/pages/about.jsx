@@ -34,20 +34,25 @@ const About = () => {
             </motion.span>
             <hr className="text-secondary/5 dark:text-white/5 mb-4" />
             <div className="grid md:grid-cols-2 grid-cols-1 gap-4 p-5">
-                <div className="space-y-5 md:p-4 text-[19px] text-base text-white">
+                <div className="space-y-5 md:p-4 text-[15px] text-base text-white" style={{fontFamily :'sans-serif'}}>
                     <div>
                         <p>
-                            I have been coding for over 5 years, beginning my journey in 2020. <br /> Initially, I learned HTML, CSS, and JavaScript to build websites.
+                            J’ai commencé mon parcours en développement avec PHP, ce qui m’a permis de poser des bases solides en programmation web. Très vite, ma curiosité m’a poussé à explorer d'autres technologies, découvrant ainsi tout le potentiel offert par des outils plus modernes et performants
                         </p>
                     </div>
                     <div>
                         <p>
-                            My first project was a simple website built with <br />  HTML, CSS, and JavaScript (~mid-2020).
+                            Côté front-end, j’ai travaillé avec des frameworks comme React et Vue.js, qui offrent une grande souplesse pour concevoir des interfaces dynamiques et réactives. Côté back-end, je me suis orienté vers Express.js et AdonisJS, qui permettent de structurer des applications robustes et maintenables.
                         </p>
                     </div>
                     <div>
                         <p>
-                            As I progressed, I focused heavily on React.js and <br />  Next.js. Now, I specialize in building SaaS <br />  applications with modern web technologies.
+                            Mon intérêt ne s’arrête pas aux technologies web classiques : j’ai également exploré des langages comme Java et Go, dont la puissance et la rigueur, notamment dans des contextes à forte charge, m’impressionnent particulièrement.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Ce qui me passionne aujourd’hui, c’est surtout l’architecture système et l’expertise autour des protocoles de communication en temps réel. Comprendre comment les données circulent efficacement entre les services, optimiser les échanges, et concevoir des solutions scalables et réactives est ce qui me motive le plus dans mon évolution professionnelle.
                         </p>
                     </div>
                     {/*  */}

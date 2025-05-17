@@ -13,16 +13,18 @@ const Header = () => {
                     <span className="text-5xl font-bold">Yann Hallage</span>
                 </div>
                 <div className="text-3xl italic">
-                    <span>Etudiant & Developpper informatique</span>
+                    <span>Etudiant & Developper informatique</span>
                 </div>
 
                 <div>
                     <p>
-                        I build open-source front-end libraries at Algolia and host two tech podcasts: Developer Experience
-                        and Entre Devs.
+                        Logiciel d'Interfaces Humaine ,  conception full stack, architecture logiciel <br />
+                        j’aime comprendre, concevoir et optimiser l’ensemble d’un système, de l’interface utilisateur à l’infrastructure technique. 
+                        
                     </p>
                     <p className="mt-2">
-                        In my spare time, I share what I learn on my blog and speak at tech conferences around the world
+                        {/* In my spare time, I share what I learn on my blog and speak at tech conferences around the world */}
+                        Pendant mon temps libre, je partage ce que j'apprends sur mon blog 
                     </p>
 
                     <div className="profil_link mt-4 space-x-5 flex text-[17px]">
