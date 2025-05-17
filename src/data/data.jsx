@@ -22,7 +22,7 @@ export const Backend = {
   express: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
   golang: "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg",
   lua : "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg",
-  vitejs: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
+  // vitejs: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
   "ruby on rails": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
   // python: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
 
@@ -41,6 +41,7 @@ export const Database = {
   // Tools
   export const Tools = {
   git: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  vitejs: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
   docker: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   kubernetes: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
   Vercel: "https://vercel.com/vc-ap-vercel-marketing/_next/static/media/vercel-logotype-dark.01246f11.svg",
@@ -54,7 +55,7 @@ export const Frontend_ = [
 ];
 
 export const Backend_ = [
-  "node js", "express", "golang","vitejs", "lua", "java", "spring"
+  "node js", "express", "golang", "lua", "java", "spring"
 ];
 
 export const Database_ = [
@@ -62,5 +63,5 @@ export const Database_ = [
 ];
 
 export const Tools_ = [
-  "git", "docker", "kubernetes", "Vercel", "postman", "drizzle"
+  "git", "docker","vitejs", "kubernetes", "Vercel", "postman", "drizzle"
 ];
