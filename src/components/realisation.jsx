@@ -28,7 +28,7 @@ const Realisation = () => {
                 >
                     <span>Projects</span>
                     <p>
-                        This is a blog page
+                        A propos des differents projects
                     </p>
                 </div>
                 <div className="bg-white/5 p-6  rounded-xl"
@@ -42,7 +42,7 @@ const Realisation = () => {
                         about
                     </span>
                     <p>
-                        This is an about page
+                        A propos de moi
                     </p>
                 </div>
                 <div className="bg-white/5 p-6  rounded-xl"
@@ -56,7 +56,7 @@ const Realisation = () => {
                         Experience
                     </span>
                     <p>
-                        This is a contact page
+                        A propos des differents experiences
                     </p>
                 </div>
             </motion.div>

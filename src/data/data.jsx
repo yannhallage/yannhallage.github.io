@@ -43,7 +43,7 @@ export const Database = {
   git: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   docker: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   kubernetes: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
-  aws: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+  Vercel: "https://vercel.com/vc-ap-vercel-marketing/_next/static/media/vercel-logotype-dark.01246f11.svg",
   // azure: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
   postman : "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
   drizzle: "https://raw.githubusercontent.com/drizzle-team/drizzle-orm/08944daf632e33c784937ac2de404cb081f795cd/misc/readme/logo-github-sq-light.svg",
@@ -62,5 +62,5 @@ export const Database_ = [
 ];
 
 export const Tools_ = [
-  "git", "docker", "kubernetes", "aws", "postman", "drizzle"
+  "git", "docker", "kubernetes", "Vercel", "postman", "drizzle"
 ];
