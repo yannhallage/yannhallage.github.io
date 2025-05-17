@@ -14,13 +14,15 @@ const About = () => {
 
         >
             <span className=" text-[13px]md:text-2xl text-base text-neutral-300">About</span>
-            <span className=" text-[13px]md:text-2xl text-base float-end cursor-pointer text-neutral-300"
+            <motion.span className=" text-[13px]md:text-2xl text-base float-end cursor-pointer text-neutral-300"
                 onClick={() => {
                     setState(
                         <Alternative />
                     );
                 }}
-            ><i class="fa-solid fa-arrow-left"></i></span>
+                initial={{ opacity: 0, scale: 0 }}
+                animate={{ opacity: 1, scale: 1 }}
+            ><i class="fa-solid fa-arrow-left"></i></motion.span>
             <hr className="text-secondary/5 dark:text-white/5 mb-4" />
             <div className="grid md:grid-cols-2 grid-cols-1 gap-4 p-5">
                 <div className="space-y-5 md:p-4 text-[19px] text-base text-white">
