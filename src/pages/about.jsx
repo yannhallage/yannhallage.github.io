@@ -1,11 +1,18 @@
 import Button from "../components/button";
 import { motion } from "motion/react"
 import { Context } from "../context/context";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import Alternative from "../alternative";
+
 
 const About = () => {
     const { state, setState } = useContext(Context);
+    const [mail] = useState(
+        <i class="fa-solid fa-envelope"></i>
+    )
+    const [github] = useState(
+        <i className="fa-brands fa-github"></i>
+    )
     return (
         <motion.section
             initial={{ opacity: 0, y: 30 }}
@@ -22,7 +29,9 @@ const About = () => {
                 }}
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
-            ><i class="fa-solid fa-arrow-left"></i></motion.span>
+            >
+                <i class="fa-solid fa-arrow-left"></i>
+            </motion.span>
             <hr className="text-secondary/5 dark:text-white/5 mb-4" />
             <div className="grid md:grid-cols-2 grid-cols-1 gap-4 p-5">
                 <div className="space-y-5 md:p-4 text-[19px] text-base text-white">
@@ -44,12 +53,14 @@ const About = () => {
                     {/*  */}
                     <div className="mt-6 flex flex-row flex-wrap gap-4">
                         <Button
-                            style={"group flex text-[17px] w-fit cursor-pointer items-center rounded-md px-4 py-2 font-medium duration-200 disabled:cursor-not-allowed disabled:opacity-50 motion-reduce:transition-none bg-blue-500 text-white hover:bg-blue-600"}
-                            text={" My Github"}
+                            style={"group flex text-[17px] w-fit space-x-2 cursor-pointer items-center rounded-md px-4 py-2 font-medium duration-200 disabled:cursor-not-allowed disabled:opacity-50 motion-reduce:transition-none bg-blue-500 text-white hover:bg-blue-600"}
+                            text={" Github"}
+                            icon={github}
                         />
                         <Button
-                            style={"group flex w-fit text-[17px] cursor-pointer items-center rounded-md px-4 py-2 font-medium duration-200 disabled:cursor-not-allowed disabled:opacity-50 motion-reduce:transition-none bg-neutral-200 text-neutral-700 hover:bg-neutral-300 dark:bg-white/10 dark:text-white dark:hover:bg-white/15"}
-                            text={"Contact me"}
+                            style={"group flex w-fit text-[17px] space-x-2 cursor-pointer items-center rounded-md px-4 py-2 font-medium duration-200 disabled:cursor-not-allowed disabled:opacity-50 motion-reduce:transition-none bg-neutral-200 text-neutral-700 hover:bg-neutral-300 dark:bg-white/10 dark:text-white dark:hover:bg-white/15"}
+                            text={"Contact"}
+                            icon={mail}
                         />
                     </div>
                 </div>
@@ -89,7 +100,7 @@ const About = () => {
                             Download CV
                         </button>
 
-                        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4" style={{ opacity: 1, transform: "none" }}>
+                        <div className="mt-8 grid grid-cols-1 sm:grid-cols-1 gap-4" style={{ opacity: 1, transform: "none" }}>
                             <div className="bg-[#1a1a1a] border border-[#333] rounded-2xl p-4 flex flex-col items-start">
                                 <svg
                                     stroke="currentColor"

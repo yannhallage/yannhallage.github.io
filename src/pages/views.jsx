@@ -16,7 +16,7 @@ const Views = () => {
     return (
         <>
             <section>
-                <span className=" text-[13px]md:text-2xl text-base text-neutral-300">Views {projects_indice}</span>
+                <span className=" text-[13px]md:text-2xl text-base text-neutral-300">Views </span>
                 <motion.span className=" text-[13px]md:text-2xl text-base float-end cursor-pointer text-neutral-300"
                     onClick={() => {
                         setState(
@@ -61,29 +61,7 @@ const Views = () => {
                         </a>
 
                         <div className="mt-4 flex flex-wrap gap-2">
-                            {[
-                                { name: "React", icon: "/assets/tech/react.svg" },
-                                { name: "TailwindCSS", icon: "/assets/tech/tailwindcss.svg" },
-                                { name: "Next.js", icon: "/assets/tech/next.svg" },
-                                { name: "Prisma", icon: "/assets/tech/prisma.svg" },
-                            ].map((tech) => (
-                                <div
-                                    key={tech.name}
-                                    className="flex cursor-default items-center gap-2 rounded-md border border-black/10 px-2 py-1 font-mono text-sm font-medium text-neutral-500 duration-200 hover:bg-black/5 motion-reduce:transition-none dark:border-neutral-800 dark:text-white/50 dark:hover:border-neutral-700 dark:hover:bg-white/5"
-                                >
-                                    <img
-                                        alt={tech.name}
-                                        loading="lazy"
-                                        width={20}
-                                        height={20}
-                                        decoding="async"
-                                        className="size-5"
-                                        src={tech.icon}
-                                        style={{ color: "transparent" }}
-                                    />
-                                    {tech.name}
-                                </div>
-                            ))}
+                            
                         </div>
 
                         <section className="my-6 mb-16">
