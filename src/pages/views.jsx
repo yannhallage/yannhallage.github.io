@@ -33,7 +33,7 @@ const Views = () => {
                     transition={{ duration: 1, ease: "easeOut" }}
                 >
                     <div className="mb-16 overflow-hidden duration-200 motion-reduce:transition-none">
-                        <h3 className="mb-2 text-2xl font-bold tracking-[-0.03em]">
+                        <h3 className="mb-2 text-2xl text-white font-bold tracking-[-0.03em]">
                             {data_projects_title[projects_indice]}
                         </h3>
                         <p className="mb-4 mt-2 text-neutral-700 dark:text-neutral-400 md:w-3/4">
@@ -87,12 +87,13 @@ const Views = () => {
                         </div>
 
                         <section className="my-6 mb-16">
-                            <h2 id="tech" className="mb-2 scroll-mt-20 box-decoration-clone bg-clip-text text-[1.7rem] font-[750] motion-reduce:transition-none">Technologies I use<span className="bg-gradient-to-r from-[#6310ff] to-[#1491ff] box-decoration-clone bg-clip-text text-fill-transparent dark:from-[#a2facf] dark:to-[#64acff]">.</span></h2>
+                            <h2 id="tech" className="mb-2 scroll-mt-20 box-decoration-clone bg-clip-text text-[1.7rem] font-[750] motion-reduce:transition-none text-white">Technologie utilisées <span className="bg-gradient-to-r from-[#6310ff] to-[#1491ff] box-decoration-clone bg-clip-text text-fill-transparent dark:from-[#a2facf] dark:to-[#64acff]">.</span></h2>
                             <p className="text-neutral-700 dark:text-neutral-300">Over the years, I have worked with a variety of technologies. Here are some of the technologies I have experience with:</p>
-                            {
-                                skill.map((techn, index) => {
-                                    return (
-                                        <>
+
+                            <div className="mt-4 flex flex-wrap gap-4">
+                                {
+                                    skill.map((techn, index) => {
+                                        return (
                                             <a className="flex cursor-pointer items-center gap-2 rounded-md border border-black/10 px-2 py-1 font-mono font-medium text-neutral-500 duration-200 hover:bg-black/5 motion-reduce:transition-none dark:border-neutral-800 dark:text-white/50 dark:hover:border-neutral-700 dark:hover:bg-white/5">
                                                 <img alt="React logo" loading="lazy"
                                                     width="20" height="20" decoding="async"
@@ -100,12 +101,9 @@ const Views = () => {
                                                     src={techn}
                                                     style={{ color: "transparent;" }} /> {skill_name[index]}
                                             </a>
-                                        </>
-                                    )
-                                })
-                            }
-                            <div className="mt-4 flex flex-wrap gap-4">
-
+                                        )
+                                    })
+                                }
                             </div>
                         </section>
                     </div>
@@ -115,4 +113,3 @@ const Views = () => {
     )
 }
 export default Views;
-
