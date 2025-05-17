@@ -7,11 +7,12 @@ import Alternative from "./alternative";
 
 
 function App() {
-  const [state ,setState] = useState(
+  const [state, setState] = useState(
     <Alternative />
   );
+  const [indice, setIndice] = useState(null)
   return (
-    <Context.Provider value={{ state, setState }}>
+    <Context.Provider value={{ state, setState, indice, setIndice }}>
       <Router />
     </Context.Provider>
   );

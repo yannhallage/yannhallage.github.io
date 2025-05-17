@@ -7,7 +7,7 @@ import Views from "./views";
 
 
 const Projects = () => {
-    const { setState } = useContext(Context);
+    const { setState, indice, setIndice } = useContext(Context);
 
     useEffect(() => {
         console.log(data_projetcs)
@@ -24,7 +24,7 @@ const Projects = () => {
                     }}
                     initial={{ opacity: 0, scale: 0 }}
                     animate={{ opacity: 1, scale: 1 }}
-                ><i class="fa-solid fa-arrow-left"></i></motion.span>
+                ><i className="fa-solid fa-arrow-left"></i></motion.span>
                 <hr className="text-secondary/5 dark:text-white/5 mb-4" />
                 <motion.div
                     className="mt-4 grid md:grid-cols-3 grid-cols-1 gap-4"
@@ -36,9 +36,10 @@ const Projects = () => {
                         return (
                             <a className="rounded-md"
                                 onClick={() => {
-                                    console.log(index)
+                                    setIndice(index)
                                     setState(
-                                        <Views />   
+                                        <Views
+                                        />
                                     )
                                 }}
                             >
