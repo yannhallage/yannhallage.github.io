@@ -30,7 +30,7 @@ const Header = () => {
                     <div className="profil_link mt-4 space-x-5 flex text-[17px]">
                         <div className=" bg-dusk">
                             <img
-                                src="/public/1720664211203.jpg"
+                                src="../assets/1720664211203.jpg"
                                 className="rounded-full"
                                 width={'50'}
                                 alt="" />
