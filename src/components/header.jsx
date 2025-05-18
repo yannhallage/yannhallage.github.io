@@ -19,29 +19,21 @@ const Header = () => {
                 <div>
                     <p>
                         Logiciel d'Interfaces Humaine ,  conception full stack, architecture logiciel <br />
-                        j’aime comprendre, concevoir et optimiser l’ensemble d’un système, de l’interface utilisateur à l’infrastructure technique.
-
+                        j’aime comprendre, concevoir et optimiser l’ensemble d’un système, de l’interface utilisateur à l’infrastructure technique. 
+                        
                     </p>
                     <p className="mt-2">
                         {/* In my spare time, I share what I learn on my blog and speak at tech conferences around the world */}
-                        Pendant mon temps libre, je partage ce que j'apprends sur mon blog
+                        Pendant mon temps libre, je partage ce que j'apprends sur mon blog 
                     </p>
 
                     <div className="profil_link mt-4 space-x-5 flex text-[17px]">
                         <div className=" bg-dusk">
-                            <motion.div
-                                layout
-                                whileHover={{ scale: 1.05 }}
-                                transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-                                className="bg-white rounded-2xl shadow-lg p-4 flex items-center space-x-4 max-w-sm cursor-pointer"
-                            >
-                                <img
-                                    src="/images/1720664211203.jpg"
-                                    className="rounded-full"
-                                    width="50"
-                                    alt="Profil"
-                                />
-                            </motion.div>
+                            <img
+                                src="/images/1720664211203.jpg"
+                                className="rounded-full"
+                                width={'50'}
+                                alt="" />
                         </div>
                         <div className="mt-2 space-x-5">
                             <a href="">
