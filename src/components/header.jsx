@@ -22,7 +22,7 @@ const Header = () => {
                         j’aime comprendre, concevoir et optimiser l’ensemble d’un système, de l’interface utilisateur à l’infrastructure technique.
                     </p>
                     <p className="mt-2">
-                        In my spare time, I share what I learn on my blog and speak at tech conferences around the world
+                        Pendant mon temps libre, je partage ce que j'apprends sur mon blog
                     </p>
 
                     <div className="profil_link mt-4 space-x-5 flex text-[17px]">
