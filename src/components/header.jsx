@@ -37,12 +37,14 @@ const Header = () => {
                             <a href="">
                                 <i className="fa-brands fa-github"></i>
                                 <span className="ml-1">
-                                    <a href="">GitHub</a>
+                                    <a href="https://github.com/yannhallage">GitHub</a>
                                 </span>
                             </a>
                             <a href="">
                                 <i className="fa-brands fa-linkedin"></i>
-                                <span className="ml-1">LinkedIn</span>
+                                <span className="ml-1">
+                                    <a href="https://www.linkedin.com/in/yannhallage/">linkedin</a>
+                                </span>
                             </a>
                         </div>
                     </div>
