@@ -1,11 +1,12 @@
 
 
-const Button = ({ text , style, icon}) => {
+const Button = ({ text , style, icon,link}) => {
 
     return (
         <button
             // className=""
             className={style}
+            onClick={link}
         >
             <span>
                 {text}

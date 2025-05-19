@@ -61,11 +61,13 @@ const About = () => {
                             style={"group flex text-[17px] w-fit space-x-2 cursor-pointer items-center rounded-md px-4 py-2 font-medium duration-200 disabled:cursor-not-allowed disabled:opacity-50 motion-reduce:transition-none bg-blue-500 text-white hover:bg-blue-600"}
                             text={" Github"}
                             icon={github}
+                            link={()=>{window.location.href="https://github.com/yannhallage"}}
                         />
                         <Button
                             style={"group flex w-fit text-[17px] space-x-2 cursor-pointer items-center rounded-md px-4 py-2 font-medium duration-200 disabled:cursor-not-allowed disabled:opacity-50 motion-reduce:transition-none bg-neutral-200 text-neutral-700 hover:bg-neutral-300 dark:bg-white/10 dark:text-white dark:hover:bg-white/15"}
                             text={"Contact"}
                             icon={mail}
+                            link={()=>{window.location.href="mailto:yannhallage2017@gmail.com"}}
                         />
                     </div>
                 </div>
