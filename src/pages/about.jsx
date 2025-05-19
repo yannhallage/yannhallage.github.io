@@ -95,7 +95,7 @@ const About = () => {
 
                         <div className="mt-4 flex-grow">
                             <p className="text-base sm:text-lg tracking-wide leading-relaxed mb-4">
-                                Namaste!🙏 suhaib.dev is more than a portfolio; it's a window into my world, where passion meets purpose. Discover my work.
+                                Cet portail est plus qu'un portfolio c'est une fenêtre sur mon monde, où la passion rencontre le but. Découvrir mon travail
                             </p>
                         </div>
 
@@ -104,7 +104,7 @@ const About = () => {
                             tabIndex={0}
                             style={{ transform: "none" }}
                         >
-                            Download CV
+                            Télécharger le CV
                         </button>
 
                         <div className="mt-8 grid grid-cols-1 sm:grid-cols-1 gap-4" style={{ opacity: 1, transform: "none" }}>
