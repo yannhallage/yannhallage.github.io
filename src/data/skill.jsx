@@ -6,7 +6,7 @@ export const skill = [
     "https://ceo.pronexus.in/assets/tech/nodejs.svg",
     "https://ceo.pronexus.in/assets/tech/mongodb.svg",
     // "https://ceo.pronexus.in/assets/tech/html.svg",
-    "https://ceo.pronexus.in/assets/tech/mysql.svg",
+    // "https://ceo.pronexus.in/assets/tech/mysql.svg",
 
 ]
 
@@ -16,5 +16,5 @@ export const skill_name = [
     "React",
     "Nodejs",
     "MongoDB",
-    "MySQL",
+    // "MySQL",
 ]
