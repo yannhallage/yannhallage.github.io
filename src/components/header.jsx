@@ -36,7 +36,9 @@ const Header = () => {
                         <div className="mt-2 space-x-5">
                             <a href="">
                                 <i className="fa-brands fa-github"></i>
-                                <span className="ml-1">GitHub</span>
+                                <span className="ml-1">
+                                    <a href="">GitHub</a>
+                                </span>
                             </a>
                             <a href="">
                                 <i className="fa-brands fa-linkedin"></i>
