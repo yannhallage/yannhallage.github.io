@@ -13,7 +13,7 @@ const Header = () => {
                     <span className="text-5xl font-bold">Yann Hallage</span>
                 </div>
                 <div className="text-3xl italic">
-                    <span>Etudiant & Developpper informatique</span>
+                    <span>Etudiant & Developper informatique</span>
                 </div>
 
                 <div>
