@@ -18,7 +18,7 @@ const Header = () => {
 
                 <div>
                     <p>
-                        Logiciel d'Interfaces Humaine , conception full stack, architecture logiciel <br />
+                        Logiciel d'Interfaces Humaine H.I.S , conception full stack, architecture logiciel <br />
                         j’aime comprendre, concevoir et optimiser l’ensemble d’un système, de l’interface utilisateur à l’infrastructure technique.
                     </p>
                     <p className="mt-2">
