@@ -46,6 +46,12 @@ const Header = () => {
                                     <a href="https://www.linkedin.com/in/yannhallage/">linkedin</a>
                                 </span>
                             </a>
+                            <a href="">
+{/*                                 <i className="fa-brands fa-linkedin"></i> */}
+                                <span className="ml-1">
+                                    <a href="https://cvdesignr.com/p/654ceba22c31f">Mon Cv</a>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
