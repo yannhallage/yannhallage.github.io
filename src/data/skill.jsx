@@ -12,7 +12,7 @@ export const skill = [
 
 export const skill_name = [
     "Typescript",
-    "JavaScript",
+    "   ",
     "React",
     "Nodejs",
     "MongoDB",

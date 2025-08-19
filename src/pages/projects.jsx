@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { data_projetcs, data_projects_descrip, data_projects_title } from '../data/data_projects'
+import { projets } from '../data/data_projects'
 import { Context } from "../context/context";
 import { useContext, useEffect } from "react";
 import Alternative from "../alternative";
@@ -10,7 +10,7 @@ const Projects = () => {
     const { setState, indice, setIndice } = useContext(Context);
 
     useEffect(() => {
-        console.log(data_projetcs)
+        console.log(projets)
     }, [])
     return (
         <>
@@ -32,7 +32,7 @@ const Projects = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, ease: "easeOut" }}
                 >
-                    {data_projetcs.map((project, index) => {
+                    {projets.map((project, index) => {
                         return (
                             <a className="rounded-md"
                                 onClick={() => {
@@ -46,7 +46,7 @@ const Projects = () => {
                                 <div className="relative">
                                     <img
                                         alt="Een afbeelding gerelateerd aan dit project"
-                                        src={project}
+                                        src={project.apercu}
                                         width={300}
                                         height={50}
                                         decoding="async"
@@ -56,11 +56,11 @@ const Projects = () => {
                                     />
                                 </div>
                                 <h3 className="text-base text-white md:text-largest mb-1 md:mb-2">
-                                    {data_projects_title[index]}
+                                    {projets.apercu}
                                 </h3>
                                 <p className="dark:text-white/40">
                                     {
-                                        data_projects_descrip[index]
+                                        projets.description
                                     }
                                 </p>
                             </a>
