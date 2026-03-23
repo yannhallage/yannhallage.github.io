@@ -1,16 +1,9 @@
-
-
-const Footer = () =>{
-    return(
-        <>
-        <footer className="mt-30 text-[12px]">
-            <div className="p-5 bg-white/5 text-center text-white">
-                <span>2025 - all right reserved | </span>
-                <span className="">yannhallage</span>
-            </div>
+const Footer = () => {
+    return (
+        <footer className="mt-16 border-t border-zinc-800 py-6 text-center text-xs text-zinc-400">
+            <span>{new Date().getFullYear()} — Portfolio personnel de Yann Hallage</span>
         </footer>
-        </>
-    )
-}
+    );
+};
 
 export default Footer;

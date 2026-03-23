@@ -2,7 +2,7 @@ export const projets = [
     {
         id: "proj-001",
         titre: "GardePharma",
-        description: "Une application pour consulter les pharmacies de garde est très pertinente et fortement ancrée dans la réalité",
+        description: "Application web pour trouver rapidement les pharmacies de garde selon la zone et le créneau horaire.",
         apercu: "https://raw.githubusercontent.com/yannhallage/GardePharma/refs/heads/main/capture/Capture%20d'%C3%A9cran%202025-08-19%20172839.png",
         capture: [
             "https://raw.githubusercontent.com/yannhallage/GardePharma/refs/heads/main/capture/Capture%20d'%C3%A9cran%202025-08-19%20172839.png",
@@ -25,9 +25,9 @@ export const projets = [
     }
     ,
     {
-        id: "proj-004",
+        id: "proj-002",
         titre: "CloudSaaSApp",
-        description: "waveWallet est une application web SaaS de gestion financière développée avec React, Express et MongoDB Atlas.",
+        description: "Prototype SaaS de gestion financière avec tableaux de bord, suivi des opérations et authentification utilisateur.",
         apercu: "https://raw.githubusercontent.com/yannhallage/GardePharma/refs/heads/dev/capture/Capture%20d'%C3%A9cran%202025-08-19%20191842.png",
         capture: [
             "https://raw.githubusercontent.com/yannhallage/GardePharma/refs/heads/dev/capture/Capture%20d'%C3%A9cran%202025-08-19%20191842.png"
@@ -43,9 +43,9 @@ export const projets = [
         ]
     },
     {
-        id: "proj-002",
+        id: "proj-003",
         titre: "SmartMealAI",
-        description: "Une application qui permet à l’utilisateur de saisir les ingrédients qu’il a, et qui propose des repas adaptés, grâce à un moteur intelligent (IA).",
+        description: "Application de recommandation de repas à partir des ingrédients disponibles, pensée pour un usage quotidien.",
         apercu: "https://raw.githubusercontent.com/yannhallage/SmartMealAI/refs/heads/main/docs/screenshot1.png",
         capture: [
             "https://raw.githubusercontent.com/yannhallage/SmartMealAI/refs/heads/main/docs/screenshot1.png",
@@ -65,9 +65,9 @@ export const projets = [
         ]
     },
     {
-        id: "proj-003",
+        id: "proj-004",
         titre: "Spacexshop",
-        description: "SpaceXshop just a clone of spacexShop web from spacex",
+        description: "Reproduction d'une boutique e-commerce inspirée de SpaceX pour travailler le design et la structure front-end.",
         apercu: "https://yannhallage.netlify.app/images/api/image.png",
         capture: [
             "https://yannhallage.netlify.app/images/api/image.png"
@@ -84,9 +84,9 @@ export const projets = [
         ]
     },
     {
-        id: "proj-004",
+        id: "proj-005",
         titre: "Majestic Cinema Cote d'ivoire",
-        description: "m'amuser a refais le front de Majestic Cinema Cote d'Ivoire.",
+        description: "Refonte front-end du site Majestic Cinema Côte d'Ivoire pour améliorer la clarté visuelle et la navigation.",
         apercu: "https://raw.githubusercontent.com/yannhallage/GardePharma/refs/heads/dev/capture/Capture%20d'%C3%A9cran%202025-08-19%20193738.png",
         capture: [
             "https://raw.githubusercontent.com/yannhallage/GardePharma/refs/heads/dev/capture/Capture%20d'%C3%A9cran%202025-08-19%20193738.png"

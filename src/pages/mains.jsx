@@ -1,7 +1,6 @@
 
 
 import Header from "../components/header";
-import Alternative from "../alternative";
 import Footer from "../components/footer";
 import { Context } from "../context/context";
 
@@ -17,7 +16,7 @@ const Mains = () => {
                     <Header />
                 </div>
                 {/*  */}
-                <section className="container mx-auto p-3 space-y-17 md:p-11">
+                <section className="container mx-auto space-y-10 p-4 md:p-10">
                     { state }
                 </section>
                 <div className="">
